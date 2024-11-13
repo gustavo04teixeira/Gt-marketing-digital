@@ -1,0 +1,119 @@
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    transition: 0.3s all;
+}
+#contato{
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 15px;
+}
+#contato:hover{
+    background-color: green;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+span{
+    color: green;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+    gap: 40px; /* Espaço entre os itens do menu */
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    align-items: center;
+}
+p{
+    font-size: 25px;
+}
+#imagemgoogle{
+    width: 80%;
+}
+h2{
+    font-size: 56px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+input[type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+input[type="submit"]:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(0.85); 
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+footer{
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+}
+#direito{
+    font-size: 10px;
+    padding: 1px;
+    margin: 0;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Distância da parte inferior da tela */
+    right: 20px; /* Distância da borda direita */
+    z-index: 1000; /* Fica acima de outros elementos */
+}
+
+.whatsapp-button img {
+    width: 70px; /* Tamanho do botão */
+    height: 70px;
+    border-radius: 30%; /* Deixa o botão redondo */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar destaque */
+}
+.whatsapp-button img {
+transition: transform 0.3s;
+filter: brightness(0.85); 
+}
