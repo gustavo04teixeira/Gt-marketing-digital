@@ -18,6 +18,7 @@ a:hover{
 }
 h1{
     text-align: center;
+    font-family:"Poppins", serif;
 }
 span{
     color: green;
@@ -39,6 +40,7 @@ body{
 nav ul li {
     display: inline;
     margin: 20px;
+    font-family:"Poppins", serif;
 }
 nav ul {
     list-style-type: none;
@@ -51,12 +53,13 @@ main{
     flex-direction: row;
     margin-top: 100px;
     align-items: center;
+    font-family:"Poppins", serif;
 }
 p{
     font-size: 25px;
 }
 #imagemgoogle{
-    width: 80%;
+    width: 100%;
 }
 h2{
     font-size: 56px;
@@ -100,21 +103,4 @@ footer{
     font-size: 10px;
     padding: 1px;
     margin: 0;
-}
-.whatsapp-button {
-    position: fixed;
-    bottom: 20px; /* Distância da parte inferior da tela */
-    right: 20px; /* Distância da borda direita */
-    z-index: 1000; /* Fica acima de outros elementos */
-}
-
-.whatsapp-button img {
-    width: 70px; /* Tamanho do botão */
-    height: 70px;
-    border-radius: 30%; /* Deixa o botão redondo */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar destaque */
-}
-.whatsapp-button img {
-transition: transform 0.3s;
-filter: brightness(0.85); 
 }
