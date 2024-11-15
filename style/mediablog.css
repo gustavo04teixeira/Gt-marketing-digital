@@ -18,14 +18,29 @@
         align-self: center;
         width: 100%;
     }
-    img{
-        display: none;
-    }
     ul{
         text-align: center;
     }
     li{
-        margin: 15px;
+        margin: 10px;
+    }
+    .content {
+        flex-direction: column; /* Coloca a imagem e o texto em coluna */
+        align-items: center; /* Alinha centralmente */
+    }
+    .text, .image {
+        width: 100%; /* Ambos ocupam 100% da largura em telas pequenas */
+        padding-right: 0; /* Remove o padding entre as colunas */
+    }
+    #tittle{
+        font-size: 20px;
+    }
+    #resumo{
+        font-size: 15px;
+    }
+    #copy{
+        font-size: 10px;
+        padding: 5px;
     }
 }
 @media (max-width: 480px) {
@@ -57,5 +72,12 @@
     ul{
         text-align: center;
     }
-
+    #resumo{
+        font-size: 15px;
+    }
+    #copy{
+        font-size: 10px;
+        padding: 5px;
+    }
+    
   }
