@@ -2,6 +2,7 @@
 a{
     color: aliceblue;
     text-decoration: none;
+    font-family:"Poppins", serif;
 }
 a:hover{
     color: green;
@@ -34,6 +35,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
+    font-family:"Poppins", serif;
 }
 
 nav ul li {
@@ -60,6 +62,7 @@ p{
 }
 h2{
     font-size: 56px;
+    font-family:"Poppins", serif;
 }
 form{
     display: flex;
@@ -98,6 +101,7 @@ footer{
 }
 #direito{
     font-size: 10px;
+    font-family:"Poppins", serif;
     padding: 1px;
     margin: 0;
 }

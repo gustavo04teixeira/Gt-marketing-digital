@@ -23,14 +23,18 @@
     }
     ul{
         text-align: center;
+        
     }
     li{
         margin: 10px;
     }
+    #copy{
+        font-size: 10px;
+    }
 }
 @media (max-width: 480px) {
     li {
-      margin: 10px; 
+      
     }
     header{
         flex-direction: column;
@@ -56,6 +60,11 @@
     }
     ul{
         text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
     }
-
+    #copy{
+        font-size: 10px;
+    }
   }
